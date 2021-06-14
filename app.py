@@ -28,6 +28,13 @@ st.write("")
 st.write("")
 st.write("")
 st.subheader("Choose a dog image... :dog:")
+
+# AND in st.sidebar!
+with st.sidebar:
+      if st.button("About"):
+          st.text("https://github.com/celestial-shubham/Dog-Breed-Predictor")
+          st.text("By Shubham Verma")
+            
 uploaded_file = st.file_uploader("", type=["jpg"])
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
@@ -36,8 +43,7 @@ if uploaded_file is not None:
     with st.spinner('Identifying...'):
         label = image_classification(image,"/content/drive/MyDrive/Dog breed prediction/Model/20201214-13301607952655-full-image-set-mobilenetv2-Adam.h5")
 
-    st.info(label)
-    if st.button("About"):
-        st.text("Github")
-        st.text("By Shubham Verma")
-        st.balloons()
+    btn = st.button("See Results!!")
+    if btn :
+      st.info(label)
+      st.balloons()
