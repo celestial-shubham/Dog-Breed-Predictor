@@ -1,8 +1,5 @@
 matplotlib
 numpy
-pandas
-pyngrok
 scikit-learn
 streamlit
-streamlit-ace
 tensorflow
