@@ -1,5 +1,4 @@
-matplotlib
-numpy
-scikit-learn
 streamlit
+numpy
+Pillow
 tensorflow
