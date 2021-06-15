@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pandas
+pipreqs
+pyngrok
+python-dateutil
+scikit-learn
+seaborn
+smmap
+streamlit
+streamlit-ace
+tensorflow
