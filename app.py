@@ -32,7 +32,7 @@ st.subheader("Choose a dog image... :dog:")
 # AND in st.sidebar!
 with st.sidebar:
       if st.button("About"):
-          st.text("Visit [Github](https://github.com/celestial-shubham/Dog-Breed-Predictor) !!")
+          st.write("Visit [Github](https://github.com/celestial-shubham/Dog-Breed-Predictor) !!")
           st.text("By Shubham Verma")
             
 uploaded_file = st.file_uploader("", type=["jpg"])
