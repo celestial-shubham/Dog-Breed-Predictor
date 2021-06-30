@@ -6,4 +6,9 @@
 
 
 * A little demo of our Final Finised Dog Preediction model using [streamlit](http://streamlit.io/) 
-* ![Dog breed Predictor Demo](https://github.com/celestial-shubham/Dog-Breed-Predictor/blob/main/streamlit-app-2021-06-30-20-06-84.mp4)
+* Dog Breed predictor
+
+
+https://user-images.githubusercontent.com/47259965/124007393-f5917700-d9f8-11eb-98f3-d4d403fd8bb8.mp4
+
+
